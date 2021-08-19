@@ -1,0 +1,28 @@
+.greeting {
+  background-color: var(--head-foot-bgcolor);
+  background-image: linear-gradient(to left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('../images/overlay-background.jpg');
+
+  max-width: 1600px;
+  text-align: center;
+  padding: 200px 0;
+  margin: 0 auto;
+}
+.greet-box.container {
+  color: var(--btn-prime-color);
+  display: inline-block;
+  text-align: center;
+}
+.greeting-title {
+  color: var(--greeting-words-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
+}
