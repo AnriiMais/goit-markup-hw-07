@@ -31,7 +31,7 @@ a {
 body {
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
-  font-family: Roboto, sans-serif;
+  font-family: var(--font-family);
   font-weight: 400;
   letter-spacing: 0.03em;
   font-size: 14px;
@@ -47,6 +47,7 @@ body {
 }
 
 :root {
+  --font-family: Roboto, sans-serif;
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
@@ -706,11 +707,15 @@ input[type='email'] {
   padding-top: 95px;
 }
 
-.features-item {
+.features__features-list {
+  display: flex;
+}
+
+.features__features-item {
   width: 270px;
 }
 
-.features-item + .features-item {
+.features__features-item + .features__features-item {
   margin-left: 30px;
 }
 
@@ -721,10 +726,6 @@ input[type='email'] {
   line-height: 1.14;
   margin-bottom: 10px;
   text-transform: uppercase;
-}
-
-.features-list {
-  display: flex;
 }
 
 .features__features-icons {
@@ -884,13 +885,13 @@ input[type='email'] {
   fill: var(--icons-color);
   border: 1px solid var(--icons-color);
   border-radius: 4px;
+  outline: 1px solid transparent;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-link:focus, .clients-link:hover {
   fill: var(--accent-color);
   border: 1px solid var(--accent-color);
-  outline: 1px solid var(--accent-color);
 }
 
 .clients-link-icon {

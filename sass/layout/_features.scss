@@ -2,12 +2,16 @@
   padding-bottom: 47px;
   padding-top: 95px;
 }
-.features-item {
+.features__features-list {
+  display: flex;
+}
+.features__features-item {
   width: 270px;
   & + & {
     margin-left: 30px;
   }
 }
+
 .features__features-title {
   color: var(--title-text-color);
 
@@ -17,10 +21,6 @@
   margin-bottom: 10px;
   text-transform: uppercase;
 }
-.features-list {
-  display: flex;
-}
-
 .features__features-icons {
   display: flex;
   align-items: center;
