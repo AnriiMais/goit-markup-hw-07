@@ -2,7 +2,7 @@
   padding-bottom: 94px;
   padding-top: 47px;
 }
-.examples-work-title {
+.work__examples-work-title {
   color: var(--title-text-color);
 
   font-weight: 700;
@@ -11,19 +11,19 @@
   text-align: center;
   text-transform: uppercase;
 }
-.examples-list {
+.work__examples-list {
   display: flex;
   margin-top: 50px;
 }
-.examples-item {
+.work__examples-item {
   position: relative;
   width: 370px;
-    & + & {
+  & + & {
     margin-left: 30px;
-    }
+  }
 }
 
-.examples-description {
+.work__examples-description {
   position: absolute;
   bottom: 0;
   left: 0;

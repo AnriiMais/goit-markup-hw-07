@@ -19,7 +19,7 @@
 }
 .email-box {
   background-color: var(--head-foot-bgcolor);
-  
+
   padding: 15px;
   margin-right: 12px;
   width: 358px;
@@ -28,39 +28,36 @@
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-      &:focus {
-        outline: 1px solid var(--accent-color);
-      }
+  &:focus {
+    outline: 1px solid var(--accent-color);
+  }
 }
-input[type="email"] {
-color: rgba(255, 255, 255, 0.6);
+input[type='email'] {
+  color: rgba(255, 255, 255, 0.6);
 
-font-weight: normal;
-font-size: 16px;
-line-height: 1.25;
-letter-spacing: 0.03em;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
 }
 .submit-btn {
   color: var(--btn-prime-color);
   background-color: var(--accent-color);
 
-  padding: 10px 62px 10px 29px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 10px 29px 10px 29px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
 }
-.button-submit-box {
-  position: relative;
-}
-.submit-icon-send {
-  position: absolute;
-  top: 50%;
-  right: 28px;
 
+.submit-icon-send {
+  margin-left: 10px;
   width: 24px;
   height: 24px;
   fill: var(--btn-prime-color);
-  transform: translate(0, -50%);
 }

@@ -4,24 +4,24 @@
   background-color: #f5f4fa;
 }
 
-.profile .name {
+.profile .profile__name {
   color: var(--title-text-color);
 
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
 }
-.profile .profession {
+.profile .profile__profession {
   font-size: 16px;
   line-height: 1.19;
 }
-.profile .profile-description {
+.profile .profile__profile-description {
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
 }
 
-.team-title {
+.team-list__team-title {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -33,7 +33,7 @@
   margin-top: 50px;
 }
 
-.team-item {
+.profile__team-item {
   background-color: #ffffff;
 
   width: 270px;
@@ -41,10 +41,10 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-    & + & {
+  & + & {
     margin-left: 30px;
-    }
+  }
 }
-.profession {
+.profile__profession {
   margin-top: 10px;
 }

@@ -44,10 +44,10 @@
 
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-    &:not(:placeholder-shown),
-    &:focus {
-      border: 1px solid var(--accent-color);
-    }
+  &:not(:placeholder-shown),
+  &:focus {
+    border: 1px solid var(--accent-color);
+  }
 }
 .input-icon {
   width: 18px;
@@ -59,8 +59,8 @@
   transform: translate(0, -50%);
 
   .modal-input:focus + & {
-  fill: var(--accent-color);
-}
+    fill: var(--accent-color);
+  }
 }
 .modal-textarea {
   width: 100%;
@@ -71,32 +71,30 @@
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   resize: none;
-    &:focus {
-      border: 1px solid var(--accent-color);
-    }
-    &::placeholder {
+  &:focus {
+    border: 1px solid var(--accent-color);
+  }
+  &::placeholder {
     font-size: 16px;
     line-height: 1.25;
 
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
-    }
+  }
 }
-
-
+.modal-field-license {
+  display: flex;
+  align-items: center;
+  margin: 0 12px;
+  margin-bottom: 30px;
+}
 .check-mark {
   position: relative;
   display: flex;
   justify-content: center;
   width: 100%;
-}
-
-.modal-field-license {
-  display: flex;
-  align-items: center;
-
-  margin-bottom: 30px;
+  padding-left: 25px;
 }
 .input-icon-check {
   position: absolute;
@@ -111,10 +109,10 @@
 
   border: 1px solid rgba(33, 33, 33, 1);
 
-    .input-check:checked + .check-text & {
-      background-color: var(--accent-color);
-      border: 1px solid var(--accent-color);
-    }
+  .input-check:checked + .check-text & {
+    background-color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+  }
 }
 
 .policy-head {
@@ -140,9 +138,8 @@
   align-self: center;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    &:focus,
-    &:hover {
-      background-color: #188ce8;
-    }
+  &:focus,
+  &:hover {
+    background-color: #188ce8;
+  }
 }
-
